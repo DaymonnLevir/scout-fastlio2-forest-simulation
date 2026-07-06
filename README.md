@@ -236,9 +236,20 @@ cd /root/scout_forest_project/fastlio_ws
 source /opt/ros/humble/setup.bash
 source /root/scout_forest_project/ros2_ws/install/setup.bash
 
-rosdep install --from-paths src --ignore-src -r -y
+# O livox_ros_driver2 precisa ser compilado explicitamente como ROS 2
+colcon build --symlink-install \
+  --packages-select livox_ros_driver2 \
+  --cmake-args -DROS_EDITION=ROS2
 
-colcon build --symlink-install
+source install/setup.bash
+
+# Depois compilar o FAST-LIO2
+colcon build --symlink-install \
+  --packages-select fast_lio
+
+source install/setup.bash
+
+ros2 pkg list | grep -E "fast_lio|livox"
 ```
 
 Depois carregue o workspace:
