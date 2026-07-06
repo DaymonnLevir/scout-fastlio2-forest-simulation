@@ -225,22 +225,28 @@ source /root/scout_forest_project/ros2_ws/install/setup.bash
 ```
 
 ---
+## 10. Compilar o workspace do FAST-LIO2 `fastlio_ws`
 
-## 10. Instalar o Livox-SDK2
-
-Antes de compilar o `livox_ros_driver2` e o FAST-LIO2, é necessário instalar o Livox-SDK2 dentro do container.
+Dentro do container:
 
 ```bash
-cd /root/scout_forest_project/Livox-SDK2
+cd /root/scout_forest_project/fastlio_ws
 
-rm -rf build
-mkdir build
-cd build
+source /opt/ros/humble/setup.bash
+source /root/scout_forest_project/ros2_ws/install/setup.bash
 
-cmake ..
-make -j$(nproc)
-make install
-ldconfig
+colcon build --symlink-install \
+  --packages-select livox_ros_driver2 \
+  --cmake-args -DROS_EDITION=ROS2
+
+source install/setup.bash
+
+colcon build --symlink-install \
+  --packages-select fast_lio
+
+source install/setup.bash
+
+ros2 pkg list | grep -E "fast_lio|livox"
 
 ---
 
