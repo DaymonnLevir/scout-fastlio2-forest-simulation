@@ -1,3 +1,0 @@
-xhost +si:localuser:root
-docker start scout_humble
-docker exec -it scout_humble bash
