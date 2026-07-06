@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "biomass-simulation-resources: run-world"
+echo
+echo "Este projeto principal usa o script:"
+echo "/root/scout_forest_project/scout_forest.sh"
+echo
+echo "Para iniciar a simulação completa:"
+echo "cd /root/scout_forest_project"
+echo "./scout_forest.sh start"
+echo
+
+echo "Mundos disponíveis:"
+find "$SCRIPT_DIR" -type f \( -name "*.world" -o -name "*.sdf" \)
