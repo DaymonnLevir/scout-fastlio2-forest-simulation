@@ -226,7 +226,25 @@ source /root/scout_forest_project/ros2_ws/install/setup.bash
 
 ---
 
-## 10. Compilar o workspace do FAST-LIO2 `fastlio_ws`
+## 10. Instalar o Livox-SDK2
+
+Antes de compilar o `livox_ros_driver2` e o FAST-LIO2, é necessário instalar o Livox-SDK2 dentro do container.
+
+```bash
+cd /root/scout_forest_project/Livox-SDK2
+
+rm -rf build
+mkdir build
+cd build
+
+cmake ..
+make -j$(nproc)
+make install
+ldconfig
+
+---
+
+## 11. Compilar o workspace do FAST-LIO2 `fastlio_ws`
 
 Dentro do container:
 
@@ -260,7 +278,7 @@ source /root/scout_forest_project/fastlio_ws/install/setup.bash
 
 ---
 
-## 11. Iniciar a simulação completa
+## 12. Iniciar a simulação completa
 
 No host, libere a interface gráfica:
 
@@ -295,7 +313,7 @@ RViz2
 
 ---
 
-## 12. Parar a simulação
+## 13. Parar a simulação
 
 Dentro do container:
 
@@ -314,7 +332,7 @@ pkill -f "ruby.*ign" 2>/dev/null || true
 
 ---
 
-## 13. Rodar o detector de obstáculos
+## 14. Rodar o detector de obstáculos
 
 Em outro terminal do host:
 
@@ -347,7 +365,7 @@ O detector publica:
 
 ---
 
-## 14. Rodar a missão do retângulo
+## 15. Rodar a missão do retângulo
 
 Em outro terminal do host:
 
@@ -396,7 +414,7 @@ com waypoints relativos:
 
 ---
 
-## 15. Tópicos principais
+## 16. Tópicos principais
 
 ```text
 /livox/lidar
@@ -426,7 +444,7 @@ com waypoints relativos:
 
 ---
 
-## 16. Visualização no RViz
+## 17. Visualização no RViz
 
 No RViz, utilize:
 
@@ -446,7 +464,7 @@ TF
 
 ---
 
-## 17. Gravar rosbag da simulação
+## 18. Gravar rosbag da simulação
 
 Crie uma pasta para bags:
 
@@ -487,7 +505,7 @@ A pasta `bags/` não deve ser enviada ao GitHub.
 
 ---
 
-## 18. Análise da trajetória
+## 19. Análise da trajetória
 
 A análise pode comparar:
 
@@ -517,7 +535,7 @@ tools/
 
 ---
 
-## 19. Observações importantes
+## 20. Observações importantes
 
 - O FAST-LIO2 fornece localização local a partir do ponto inicial do robô.
 - O sistema não depende de GPS.
@@ -529,7 +547,7 @@ tools/
 
 ---
 
-## 20. Fluxo resumido
+## 21. Fluxo resumido
 
 No host:
 
@@ -590,7 +608,7 @@ ros2 run scout_waypoint_navigation mission_navigator \
 
 ---
 
-## 21. Laboratório
+## 22. Laboratório
 
 Projeto desenvolvido no contexto de testes de localização e navegação para robôs móveis em ambiente florestal.
 
