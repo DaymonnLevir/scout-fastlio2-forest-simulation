@@ -19,9 +19,6 @@ metadata.yaml
 *.pcd
 *.ply
 *.csv
-*.png
-*.jpg
-*.jpeg
 
 # Python
 __pycache__/
