@@ -1,0 +1,98 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='920' viewBox='0 0 1200 920'>
+<rect x='0' y='0' width='100%' height='100%' fill='#ffffff'/>
+<text x='30' y='38' font-size='24' font-family='Arial' fill='#222'>forest_1 Ground Truth</text>
+<text x='30' y='62' font-size='14' font-family='Arial' fill='#444'>Objects: 55 | Trees: 30 | Bushes: 25</text>
+<rect x='90' y='70' width='1070' height='770' fill='#fafafa' stroke='#999' stroke-width='1'/>
+<line x1='117.44' y1='70' x2='117.44' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='109.44' y='862' font-size='11' font-family='Arial' fill='#555'>-15</text>
+<line x1='254.62' y1='70' x2='254.62' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='246.62' y='862' font-size='11' font-family='Arial' fill='#555'>-10</text>
+<line x1='391.79' y1='70' x2='391.79' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='383.79' y='862' font-size='11' font-family='Arial' fill='#555'>-5</text>
+<line x1='528.97' y1='70' x2='528.97' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='520.97' y='862' font-size='11' font-family='Arial' fill='#555'>0</text>
+<line x1='666.15' y1='70' x2='666.15' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='658.15' y='862' font-size='11' font-family='Arial' fill='#555'>5</text>
+<line x1='803.33' y1='70' x2='803.33' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='795.33' y='862' font-size='11' font-family='Arial' fill='#555'>10</text>
+<line x1='940.51' y1='70' x2='940.51' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='932.51' y='862' font-size='11' font-family='Arial' fill='#555'>15</text>
+<line x1='1077.69' y1='70' x2='1077.69' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='1069.69' y='862' font-size='11' font-family='Arial' fill='#555'>20</text>
+<line x1='90' y1='840' x2='1160' y2='840' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='844' font-size='11' font-family='Arial' fill='#555'>-15</text>
+<line x1='90' y1='715.81' x2='1160' y2='715.81' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='719.81' font-size='11' font-family='Arial' fill='#555'>-10</text>
+<line x1='90' y1='591.61' x2='1160' y2='591.61' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='595.61' font-size='11' font-family='Arial' fill='#555'>-5</text>
+<line x1='90' y1='467.42' x2='1160' y2='467.42' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='471.42' font-size='11' font-family='Arial' fill='#555'>0</text>
+<line x1='90' y1='343.23' x2='1160' y2='343.23' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='347.23' font-size='11' font-family='Arial' fill='#555'>5</text>
+<line x1='90' y1='219.03' x2='1160' y2='219.03' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='223.03' font-size='11' font-family='Arial' fill='#555'>10</text>
+<line x1='90' y1='94.84' x2='1160' y2='94.84' stroke='#e2e2e2' stroke-width='1'/>
+<text x='55' y='98.84' font-size='11' font-family='Arial' fill='#555'>15</text>
+<line x1='528.97' y1='70' x2='528.97' y2='840' stroke='#444' stroke-width='1.5'/>
+<line x1='90' y1='467.42' x2='1160' y2='467.42' stroke='#444' stroke-width='1.5'/>
+<circle cx='583.47' cy='457.37' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='528.97' cy='467.42' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='465.29' cy='349.45' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='471.6' cy='490.37' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='463.71' cy='419.85' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='495' cy='414.15' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='612.68' cy='461.86' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='359.96' y='605.55' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='319.33' y='615.7' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='341.34' cy='588.81' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='342.24' cy='676.33' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='447.98' y='673.65' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='632.21' y='642.44' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='759.59' y='616.39' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='711.81' cy='670.79' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='752.67' cy='701.87' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='698.43' cy='732.92' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='822.36' cy='495.97' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='862.16' cy='466.05' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='809.81' y='697.7' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='895.84' y='486.12' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='874.34' y='434.39' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='806.03' cy='244.2' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='758.64' cy='197.54' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='293.19' cy='234.67' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='314.75' cy='176.41' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='378' cy='141.01' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='859.71' y='203.08' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='814.99' y='291.19' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='316.58' y='206.67' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='361.91' y='150.77' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='697.01' cy='704.86' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='294.98' cy='705.55' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='228.67' cy='707.43' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='150.1' cy='569.83' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='832.77' cy='168.05' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='946.81' cy='223.03' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='976.7' cy='290.62' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='575.1' y='736.79' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='530.86' y='781.12' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='610.99' y='796.13' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='602.78' y='171.47' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='635.6' y='102.12' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='582.54' y='114.82' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='681.86' y='344.12' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='436.88' y='620.22' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='141.11' cy='776.06' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='158.32' cy='688.64' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='1126.05' cy='192.73' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<circle cx='1043.96' cy='168.22' r='4.2' fill='#1f77b4' fill-opacity='0.9'/>
+<rect x='994.99' y='729.16' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='1036.41' y='686.92' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='1104.96' y='659.54' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='1076.69' y='746.29' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<rect x='978.29' y='661.42' width='6.4' height='6.4' fill='#2ca02c' fill-opacity='0.9'/>
+<circle cx='930' cy='38' r='5' fill='#1f77b4'/><text x='942' y='42' font-size='13' font-family='Arial'>tree</text>
+<rect x='1005' y='33' width='10' height='10' fill='#2ca02c'/><text x='1020' y='42' font-size='13' font-family='Arial'>bush</text>
+<text x='605' y='900' font-size='14' font-family='Arial' fill='#333'>X (m)</text>
+<text transform='translate(22,475) rotate(-90)' font-size='14' font-family='Arial' fill='#333'>Y (m)</text>
+</svg>
+

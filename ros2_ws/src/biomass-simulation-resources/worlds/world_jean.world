@@ -1,0 +1,160 @@
+<?xml version='1.0' ?>
+<sdf version='1.6'>
+  <world name='world_jean'>
+    <gravity>0 0 -9.8</gravity>
+    <magnetic_field>6.0e-6 2.3e-5 -4.2e-5</magnetic_field>
+    <atmosphere type='adiabatic'/>
+
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <light name='sun' type='directional'>
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <include>
+      <uri>model://green_ground</uri>
+      <name>green_ground</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_001</name>
+      <pose>1.986238 0.404763 0.000000 0 0 -1.401532</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_002</name>
+      <pose>0.000000 0.000000 0.000000 0 0 0.000000</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_003</name>
+      <pose>-2.321035 4.749358 0.000000 0 0 -2.405628</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_004</name>
+      <pose>0.754366 -0.724326 0.000000 0 0 -1.852761</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_005</name>
+      <pose>0.257643 -2.963321 0.000000 0 0 -2.835246</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_006</name>
+      <pose>-3.915372 -4.709622 0.000000 0 0 -0.055596</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_007</name>
+      <pose>-4.350989 -4.475341 0.000000 0 0 -0.055596</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_008</name>
+      <pose>0.027284 -2.633390 0.000000 0 0 -2.444524</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_009</name>
+      <pose>-2.091227 -0.923786 0.000000 0 0 0.384187</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_010</name>
+      <pose>-2.378709 1.914971 0.000000 0 0 0.963397</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_011</name>
+      <pose>-1.143144 3.841885 0.000000 0 0 -0.903485</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_012</name>
+      <pose>-3.062804 1.605219 0.000000 0 0 -2.689910</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_013</name>
+      <pose>4.685165 3.038776 0.000000 0 0 1.851518</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_014</name>
+      <pose>-1.238277 2.144758 0.000000 0 0 -0.140443</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_015</name>
+      <pose>3.556717 1.347686 0.000000 0 0 0.462843</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_016</name>
+      <pose>3.246999 -2.149990 0.000000 0 0 -2.599724</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_017</name>
+      <pose>2.192528 -3.880258 0.000000 0 0 -0.963640</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_018</name>
+      <pose>3.050985 0.223972 0.000000 0 0 2.207372</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_019</name>
+      <pose>-0.665921 -3.660063 0.000000 0 0 0.942517</pose>
+    </include>
+
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>world_jean_tree_020</name>
+      <pose>-1.806085 -1.958286 0.000000 0 0 1.279711</pose>
+    </include>
+
+<gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0 -18 12 0 0.55 1.57</pose>
+      </camera>
+    </gui>
+  </world>
+</sdf>

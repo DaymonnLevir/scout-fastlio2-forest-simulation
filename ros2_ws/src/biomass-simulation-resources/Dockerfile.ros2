@@ -1,0 +1,23 @@
+FROM ros:jazzy-ros-base
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3-colcon-common-extensions \
+    python3-rosdep \
+    ros-jazzy-ros-gz \
+    ros-jazzy-ros-gz-sim \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+SHELL ["/bin/bash", "-c"]
+
+# Workspace ROS 2 basico
+RUN mkdir -p /simulation-ws/src
+WORKDIR /simulation-ws
+
+# Source automatico do ROS 2 ao abrir shell no container
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
+RUN echo "source /simulation-ws/install/setup.bash 2>/dev/null || true" >> /root/.bashrc
+
+CMD ["bash"]

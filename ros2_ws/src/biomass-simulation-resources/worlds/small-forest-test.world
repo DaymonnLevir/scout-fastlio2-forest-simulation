@@ -1,0 +1,560 @@
+<sdf version='1.7'>
+  <world name='world_template_empty'>
+    <gravity>0 0 -9.8</gravity>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 20 0 -0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+      <spot>
+        <inner_angle>0</inner_angle>
+        <outer_angle>0</outer_angle>
+        <falloff>0</falloff>
+      </spot>
+    </light>
+    <model name='green_ground'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>200 200</size>
+            </plane>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual_m20_m20'>
+          <pose>-20 -20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m20_m10'>
+          <pose>-20 -10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m20_0'>
+          <pose>-20 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m20_10'>
+          <pose>-20 10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m20_20'>
+          <pose>-20 20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m10_m20'>
+          <pose>-10 -20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m10_m10'>
+          <pose>-10 -10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m10_0'>
+          <pose>-10 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m10_10'>
+          <pose>-10 10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_m10_20'>
+          <pose>-10 20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_0_m20'>
+          <pose>0 -20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_0_m10'>
+          <pose>0 -10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_0_0'>
+          <pose>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_0_10'>
+          <pose>0 10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_0_20'>
+          <pose>0 20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_10_m20'>
+          <pose>10 -20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_10_m10'>
+          <pose>10 -10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_10_0'>
+          <pose>10 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_10_10'>
+          <pose>10 10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_10_20'>
+          <pose>10 20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_20_m20'>
+          <pose>20 -20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_20_m10'>
+          <pose>20 -10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_20_0'>
+          <pose>20 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_20_10'>
+          <pose>20 10 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='visual_20_20'>
+          <pose>20 20 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <enable_wind>0</enable_wind>
+      </link>
+      <pose>0 0 0 0 -0 0</pose>
+    </model>
+    <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
+    <atmosphere type='adiabatic'/>
+    <physics type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <model name='world_jean_tree_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 1 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.22</radius>
+              <length>2</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_tree/meshes/world_jean_tree.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4.52183 3.7767 0 0 -0 0</pose>
+    </model>
+    <model name='world_jean_tree_clone_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 1 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.22</radius>
+              <length>2</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_tree/meshes/world_jean_tree.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>6.97302 1.5287 0 0 -0 0</pose>
+    </model>
+    <model name='world_jean_tree_clone_clone_clone'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 1 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.22</radius>
+              <length>2</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_tree/meshes/world_jean_tree.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>8.27403 4.78452 0 0 -0 0</pose>
+    </model>
+    <model name='world_jean_tree_clone_clone_clone_0'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 1 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.22</radius>
+              <length>2</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_tree/meshes/world_jean_tree.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>4.97222 6.81452 0 0 -0 0</pose>
+    </model>
+    <model name='world_jean_tree_clone_clone_0_clone_1_clone_1'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <pose>0 0 1 0 -0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.22</radius>
+              <length>2</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://world_jean_tree/meshes/world_jean_tree.obj</uri>
+              <scale>1 1 1</scale>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>11.2258 1.96661 0 0 -0 0</pose>
+    </model>
+    <state world_name='world_template_empty'>
+      <sim_time>241 748000000</sim_time>
+      <real_time>262 674164823</real_time>
+      <wall_time>1780349046 822288897</wall_time>
+      <iterations>241748</iterations>
+      <model name='green_ground'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='world_jean_tree_clone_clone'>
+        <pose>6.97302 1.5287 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>6.97302 1.5287 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='world_jean_tree_clone_clone_0_clone_1_clone_1'>
+        <pose>11.2258 1.96661 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>11.2258 1.96661 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='world_jean_tree_clone_clone_clone'>
+        <pose>8.27403 4.78452 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>8.27403 4.78452 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='world_jean_tree_clone_clone_clone_0'>
+        <pose>4.97222 6.81452 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>4.97222 6.81452 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 20 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>4.106 -26.5017 38.7016 0 0.795643 1.52019</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>

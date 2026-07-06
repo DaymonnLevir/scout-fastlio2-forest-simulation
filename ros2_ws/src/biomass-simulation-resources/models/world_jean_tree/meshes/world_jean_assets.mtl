@@ -1,0 +1,22 @@
+# Blender 4.5.0 MTL File: '3d_scene_prepared_10x10.blend'
+# www.blender.org
+
+newmtl Walnut_L
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+illum 2
+map_Kd tree_3_texture.png
+map_d tree_3_texture.png
+
+newmtl grass
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd seamless_grass_texture.jpg

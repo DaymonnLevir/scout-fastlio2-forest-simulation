@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="green_ground">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>200 200</size>
+          </plane>
+        </geometry>
+      </collision>
+      <visual name='visual_m20_m20'>
+        <pose>-20 -20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m20_m10'>
+        <pose>-20 -10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m20_0'>
+        <pose>-20 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m20_10'>
+        <pose>-20 10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m20_20'>
+        <pose>-20 20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m10_m20'>
+        <pose>-10 -20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m10_m10'>
+        <pose>-10 -10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m10_0'>
+        <pose>-10 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m10_10'>
+        <pose>-10 10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_m10_20'>
+        <pose>-10 20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_0_m20'>
+        <pose>0 -20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_0_m10'>
+        <pose>0 -10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_0_0'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_0_10'>
+        <pose>0 10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_0_20'>
+        <pose>0 20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_10_m20'>
+        <pose>10 -20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_10_m10'>
+        <pose>10 -10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_10_0'>
+        <pose>10 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_10_10'>
+        <pose>10 10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_10_20'>
+        <pose>10 20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_20_m20'>
+        <pose>20 -20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_20_m10'>
+        <pose>20 -10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_20_0'>
+        <pose>20 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_20_10'>
+        <pose>20 10 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <visual name='visual_20_20'>
+        <pose>20 20 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://world_jean_ground/meshes/world_jean_ground.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>      <self_collide>false</self_collide>
+      <kinematic>false</kinematic>
+    </link>
+  </model>
+</sdf>

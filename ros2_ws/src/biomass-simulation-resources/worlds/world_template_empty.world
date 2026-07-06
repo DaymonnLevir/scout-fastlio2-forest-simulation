@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='world_template_empty'>
+    <gravity>0 0 -9.8</gravity>
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <shadows>true</shadows>
+    </scene>
+
+    <light name='sun' type='directional'>
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <include>
+      <uri>model://green_ground</uri>
+      <name>green_ground</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Fallback plain ground (use this only if green_ground is unavailable) -->
+    <!--
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    -->
+
+    <!-- Example: add your own instances using models from this package -->
+    <!--
+    <include>
+      <uri>model://world_jean_tree</uri>
+      <name>tree_01</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    -->
+  </world>
+</sdf>
